@@ -13,7 +13,6 @@ export default function Dashboard() {
   )
 }
 export const getServerSideProps = canSSRAuth(async (ctx) => {
-  console.log()
   return {
     props: {}
   }
