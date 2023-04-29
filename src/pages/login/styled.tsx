@@ -85,7 +85,7 @@ export const FormLoginContainer = styled.div`
     width: 100%;
     height: 50px;
     border-radius: 25px;
-    background: #8bb8a2;
+    background: #57b846;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,9 +93,6 @@ export const FormLoginContainer = styled.div`
     outline: none!important;
     border: none;
     margin-top : 8px;
-  }
-  button:hover{
-   background:#66ac3e;
   }
 
   @media(max-width: 992px) {
@@ -126,8 +123,13 @@ export const FooterLogin = styled.div`
  justify-content: center;
  align-items: center;
 
+ p{
+  font-size: 1.2rem;
+  font-weight:bold;
+ }
+
  a{
     margin-left: 4px;
-    color: #4c4e8d;
+    color: #57b846;
   }
 `

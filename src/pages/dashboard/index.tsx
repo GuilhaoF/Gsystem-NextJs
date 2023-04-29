@@ -9,6 +9,7 @@ export default function Dashboard() {
     <>
       <SidebarComponent />
       <HeaderComponent title="Dashboard" />
+      
     </>
   )
 }

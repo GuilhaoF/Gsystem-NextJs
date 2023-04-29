@@ -58,8 +58,10 @@ export default function LoginPage() {
             <button onClick={handleLoginUser}>Entrar</button>
 
             <FooterLogin>
-              <p>Nao e usuario?</p>
+              <p>Nao e usuario?
               <Link href="/register">Registre - se</Link>
+              </p>
+              
             </FooterLogin>
 
           </FormLoginContainer>

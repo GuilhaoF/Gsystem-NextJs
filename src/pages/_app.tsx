@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
         <AuthProvider>
           <GlobalStyle />
           <Component {...pageProps} />
-          <ToastContainer />
+          <ToastContainer  draggable={false}/>
         </AuthProvider>
       </ThemeProvider>
     </>

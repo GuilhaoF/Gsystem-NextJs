@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const HeaderContainer = styled.div`
   margin-left: 250px;
 
+    
   @media (max-width: 700px) {
     text-align: center;
     margin-left: 0;
