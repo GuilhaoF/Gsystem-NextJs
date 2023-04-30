@@ -11,7 +11,8 @@ const LinkItems: Array<LinkItemProps> = [
   { name: 'Inicio', route: '/dashboard' },
   { name: 'Cadastrar Chamados', route: '/ticket/newticket' },
   { name: 'Meus Chamados', route: '/ticket' },
-  { name: 'Sobre Aplicacao', route: '/about' }
+  { name: 'Sobre o Desenvolvedor', route: '/about' },
+  { name: 'Notas de Versao', route: '/versions' }
 ]
 
 export default function SidebarComponent() {

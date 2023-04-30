@@ -12,9 +12,7 @@ export default function About() {
       <SidebarComponent />
       <HeaderComponent title="About" />
       <AboutContainer>
-        <h2>Teste</h2>
-        <h2>Teste</h2>
-        <h2>Teste</h2>
+        <h2>Luis Felipe G Silva</h2>
       </AboutContainer>
     </>
   )
